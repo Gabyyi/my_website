@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+}
+section{
+    margin: 0px;
+}
+.home{
+    position: relative;
+    width: 80%;
+    justify-content: space-between;
+    height: 599px;
+    display: flex;
+    align-items: center;
+    padding: 50px 10% 0;
+    /*background-image: url("wallpaper.jpg");*/
+    background-color: #1f2f44;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-content{
+    max-width:700px;
+}
+.home-content h2{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -70px;
+    margin-bottom: 30px;
+    color: #de8eff;
+}
+/*.home-content h2 span{
+    
+}*/
+.home-content p{
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: monospace;
+    color: rgb(155, 255, 101);
+    /*text-shadow: 0 0 1rem rgb(155, 255, 101);*/
+}
+.p1{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: monospace;
+    color: rgb(255, 213, 46);
+}
+.p2{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: monospace;
+    color: rgb(65, 144, 255);
+}
+.p3{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+}
+.home-contact a{
+    /*margin-top: -20000px;
+    margin-bottom: 20000px;
+    margin-left: 2000px;
+    margin-right: 0px;*/
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 3px solid #de8eff;
+    border-radius: 40%;
+    font-size: 30px;
+    color: #de8eff;
+    text-decoration: none;
+    margin: 15px;
+}
+.home-contact a:hover{
+    background: #de8eff;
+    color: #000000;
+    box-shadow: 0 0 15px #de8eff;
+}
